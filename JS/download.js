@@ -62,7 +62,7 @@ document.querySelectorAll('.download-link').forEach(function(link) {
     link.addEventListener('click', function(event) {
         event.preventDefault(); // Evita o comportamento padrão do link
 
-        var confirmDownload = confirm('Você deseja fazer o download do meu CV?');
+        var confirmDownload = confirm('Deseja fazer o download do meu CV?');
 
         if (confirmDownload) {
             // Cria um objeto Blob com o conteúdo do arquivo PDF

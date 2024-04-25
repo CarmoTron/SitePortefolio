@@ -58,6 +58,10 @@
 // });
 
 
+
+
+//ainda por perceber porque nao consigo fazer download direto daqui
+
 document.querySelectorAll('.download-link').forEach(function(link) {
     link.addEventListener('click', function(event) {
         event.preventDefault(); // Evita o comportamento padrão do link

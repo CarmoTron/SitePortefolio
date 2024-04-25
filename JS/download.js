@@ -66,7 +66,7 @@ document.querySelectorAll('.download-link').forEach(function(link) {
 
         if (confirmDownload) {
             // Cria um objeto Blob com o conteúdo do arquivo PDF
-            var blob = new Blob(['/CV/CV - Bruno Mota do Carmo.pdf'], { type: 'application/pdf' });
+            var blob = new Blob(['CV/CV - Bruno Mota do Carmo.pdf'], { type: 'application/pdf' });
             
             // Cria um link temporário para o Blob
             var downloadLink = document.createElement('a');

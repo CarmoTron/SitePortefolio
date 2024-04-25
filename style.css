@@ -329,8 +329,8 @@ section.sobre {
 }
 
 .sobre .foto_sobre {
-    border-radius: 50%;
-
+   border-radius: 10%;
+    width: 75%;
     box-shadow: 0 0 10px #3b3936;
 }
 
@@ -640,7 +640,9 @@ footer .line-footer p a {
     }
 
     .sobre .foto_sobre {
-        width: 100%;
+        width: 25%;
+        margin: auto;
+        
 
      }
 

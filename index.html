@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <!-- Googgle Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <!-- End  Google Fonts-->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--End  Bootstrap -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/CSS/style.css">
+    <!-- END CSS -->
+
+    <script src="./JS/menu.js" defer></script>
+    <script src="./JS/download.js" defer></script>
+    <script src="./JS/linkProjeto.js" defer></script>
+    <script src="./JS/showMore.js" defer></script>
+
+    <title>Portefólio Bruno Carmo</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+
+            <div class="logo">
+                <a href="#">
+                    <img class="logo_pq" src="img/logo_round.png" alt="Logo de programador Bruno Carmo">
+                </a>
+            </div><!-- logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projeto">Projetos</a></li>
+                </ul>
+            </nav><!-- menu-desktop -->
+            
+            <div class="btn-contato">
+                
+                <a href="#form">
+                  <button>Email</button>  
+                </a>
+            </div><!--  btn contato -->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div><!--- btn abrir menu--->
+            <div class="menu-mobile" id="menu-mob">
+                <div class="btn-fechar" id="fecha">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projeto">Projetos</a></li>
+                        <li><a href="#form">Email</a></li>
+                    </ul>
+                </nav><!-- nav -->
+            </div><!--- menu mobile --->
+
+            <div class="overlay-menu" id="overlay-menu">
+
+            </div>
+        </div><!-- interface-->
+    </header>
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+
+                <div class="flex">
+
+                    <div class="txt-topo-site">
+
+                        <h1>Portefólio de <span>Bruno Carmo.</span></h1>
+                        <p>Sou uma pessoa que não desiste facilmente, considero-me 
+                         uma pessoa divertida, trabalhadora e com desejo de aprender. 
+                         Desde miudo que gosto de desmontar, arranjar e ver o interior dos aparelhos.
+                         <br>
+                         <br>Gosto bastante de hardware e troubleshooting, e isso teve um efeito gravítico para o mundo informático.
+                         Tanto que decidi me aventurar no mundo da programação. E estou adorar o desafio, as possibilidades e ideias que o efeito de um algoritmo juntamente com a programação têm<span>!</span></p>
+
+                        <div class="btn-contato">
+                            <a href="#" class="download-link"> <!-- id="download-link" -->
+                                <button>CV <i class="bi bi-file-earmark"></i></button>  
+                            </a>
+                            
+                        </div><!--- btn-contato -->
+
+                    </div><!-- txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img class="foto" src="img/foto.jpg" alt="Rapaz do site, Bruno Carmo">
+
+                    </div><!--  img-topo-site-->
+
+                </div><!-- flex-->
+
+            </div><!-- interface-->
+
+        </section><!--- topo do site--->
+
+        <section class="especialidades"   id="skill" >
+
+            <div class="interface" >
+
+                <h2 class="titulo"><span>SKILLS</span></h2>
+                <div class="flex">
+                    <div class="especialidade-box">
+                        <i class="bi bi-bricks"></i>
+                        <h3>Hard Skills</h3>
+                        
+                        <p>Conhecimentos em Backend e FrontEnd, Troubleshooting,  Auto-Didata, Liderança, Gestão de Equipa</p>
+                        
+                    </div><!--- especialidade-box-->
+
+                    <!-- <div class="especialidade-box">
+                        <i class="bi-puzzle"></i>
+                        <h3>Hobbies</h3>
+                        <p>Botar inves de websites por soft skill ou hardskills, coisas assim</p>
+                    </div>- especialidade-box -->
+
+                    <div class="especialidade-box">
+                        <i class="bi bi-feather"></i>
+                        <h3>Soft Skills</h3>
+                        <p>Persistência, Espírito Divertido, Trabalho de Equipa, Proativo, Comunicação Interpessoal, Adaptabilidade</p>
+                    </div><!--- especialidade-box-->
+                </div><!-- flex-->
+
+            </div><!-- interface -->
+
+        </section><!-- especialidades -->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+
+                <div class="flex">
+
+                    <div class="img-sobre">
+
+                        <img class="foto_sobre" src="img/foto_sobre.jpg" alt="Rapaz do site, de camisa branca">
+
+                    </div><!--- img-sobre -->
+
+                    <div class="txt-sobre">
+
+                        <h2>ABOUT <span>ME</span> </h2>
+                        <p>Sou Bruno Carmo, um entusiasta de tecnologia da vila das grandes ondas. Desde jovem, mergulhei no universo da informática, apaixonado por desmontar e entender o funcionamento dos aparelhos. 
+                            Com formação em ciências e tecnologias e experiência em liderança de equipe em restaurantes, desenvolvi habilidades tanto técnicas quanto interpessoais, aprendendo o valor da comunicação, 
+                            da empatia e da liderança.
+                            Emigrei para terras francesas, absorvendo o <strong>savoir-faire</strong> e refinando algumas das minhas habilidades. 
+                            <p>E foi em Paris que descobri o meu interesse em programação web, onde fiz um curso na área. Apesar de brevemente interrompido por questões pessoais, 
+                                a minha passagem pela Lisboa42 fortaleceu bastante a minha autonomia e proatividade.</p>
+                            <p>No dia 1 Abril 2024 finalizei o curso de Programador Informático no <span><a href="https://cencal.pt/">CENCAL</a></span>. 
+                                Obtive conhecimentos em C#, Java, Python, C, ASP.NET, HTML, CSS. Apesar de ser verdinho no que toca a programar, 
+                                quero crescer profissionalmente nesta área. Estou pronto para contribuir com a minha determinação e vontade de aprender e melhorar continuamente.</p>
+                            </p>
+                        <div class="btn-social">
+                            <a href="https://www.linkedin.com/in/bruno-carmo-2819a1b4/"><button><i class="bi-linkedin"></i></button></a>
+                            <a href="https://github.com/CarmoTron"><button><i class="bi-github"></i></button></a>
+                            <a href="#" class="download-link"><button>
+                                <!-- <i class="bi bi-file-earmark-text-fill">--> <img class="svg" src="img/cv.png"> 
+                            </i></button></a>
+                        </div>
+                    </div><!-- txt-sobre -->
+
+                </div><!--- flex-->
+
+            </div><!--- interface -->
+
+        </section><!--- sobre --->
+
+        <section class="portefolio" id="projeto">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
+                <div class="flex" id="projects-container">
+                    <div class="img-port" id="projeto_1" style="background-image: url(img/galojogo.png)">  
+                        <div class="overlay">Jogo do Galo Ver.1.0</div>
+                    </div><!--- img-port---></a>
+                    <div class="img-port" id="projeto_2" style="background-image: url(img/jogoMemoria.png);">
+                        <div class="overlay">Jogo da Memória</div>
+                    </div><!--- img-port--->
+                    <div class="img-port" id="projeto_3" style="background-image: url(img/android.png);">
+                        <div class="overlay">Projetos em AndroidStudio</div>
+                    </div><!--- img-port--->   
+                    <div class="img-port hidden" id="projeto_4" style="background-image: url(img/bookss.png);">
+                        <div class="overlay">Novo Projeto 1</div>   
+                        
+                    </div><!--- flex -->
+                    
+            </div><!--- interface -->
+            <button class="btn-mostra" id="btn-mostra">Mostrar Mais</button>
+           
+        </section><!--- portefolio -->
+
+        <section class="formulario" id="form">
+
+            <div class="interface">
+
+                <h2 class="titulo">CONTATE<span>-ME</span></h2>
+                <form action="https://formspree.io/f/mzbnyorv" method="post">
+                    <input type="text" name="nome" id="" placeholder="Nome" required/>
+                    <input type="text" name="email" id="" placeholder="Email" required/>
+                    <input type="text" name="telefone" id="" placeholder="Telemóvel" />
+                    <textarea name="mensagem" id="" placeholder="Mensagem" required ></textarea>
+                    <div class="btn-enviar"><input type="submit" value="Enviar"/></div>
+                </form>
+            </div><!-- interface -->
+
+        </section><!-- formulario -->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img class="logo_pq" src="img/logo_round.png" alt="Logo Bruno Carmo">
+                    </div><!-- logo-footer -->
+                    <div class="btn-social">
+                        <a href="https://www.linkedin.com/in/bruno-carmo-2819a1b4/"><button><i class="bi-linkedin"></i></button></a>
+                        <a href="https://github.com/CarmoTron"><button><i class="bi-github"></i></button></a>
+                    </div><!--  btn-social -->
+                </div><!--- flex -->
+            </div><!--  line-footer -->
+            <div class="line-footer borda">
+               <p><i class="bi bi-envelope-fill"></i> <a href="mailto:bruno_carmo11@live.com.pt"> bruno_carmo11@live.com.pt</a></p>
+            </div><!--  line-footer borda-->
+        </div><!--- interface -->
+    </footer>
+</body>
+</html>

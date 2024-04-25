@@ -66,7 +66,7 @@ document.querySelectorAll('.download-link').forEach(function(link) {
 
         if (confirmDownload) {
             // Cria um objeto Blob com o conteúdo do arquivo PDF
-            var blob = new Blob(['./CV_Bruno_Carmo.pdf'], { type: 'application/pdf' });
+            var blob = new Blob(['https://carmotron.github.io/portefolio/CV_Bruno_Carmo.pdf'], { type: 'application/pdf' });
             
             // Cria um link temporário para o Blob
             var downloadLink = document.createElement('a');

@@ -60,29 +60,29 @@
 
 
 
-//ainda por perceber porque nao consigo fazer download direto daqui
+// //ainda por perceber porque nao consigo fazer download direto daqui
 
-document.querySelectorAll('.download-link').forEach(function(link) {
-    link.addEventListener('click', function(event) {
-        event.preventDefault(); // Evita o comportamento padrão do link
+// document.querySelectorAll('.download-link').forEach(function(link) {
+//     link.addEventListener('click', function(event) {
+//         event.preventDefault(); // Evita o comportamento padrão do link
 
-        var confirmDownload = confirm('Deseja fazer o download do meu CV?');
+//         var confirmDownload = confirm('Deseja fazer o download do meu CV?');
 
-        if (confirmDownload) {
-            // Cria um objeto Blob com o conteúdo do arquivo PDF
-            var blob = new Blob(['carmotron.github.io/portefolio/CV_Bruno_Carmo.pdf'], { type: 'application/pdf' });
+//         if (confirmDownload) {
+//             // Cria um objeto Blob com o conteúdo do arquivo PDF
+//             var blob = new Blob(['carmotron.github.io/portefolio/CV_Bruno_Carmo.pdf'], { type: 'application/pdf' });
             
-            // Cria um link temporário para o Blob
-            var downloadLink = document.createElement('a');
-            downloadLink.href = window.URL.createObjectURL(blob);
+//             // Cria um link temporário para o Blob
+//             var downloadLink = document.createElement('a');
+//             downloadLink.href = window.URL.createObjectURL(blob);
             
-            // Define o nome do arquivo para download
-            downloadLink.download = 'CV_Bruno_Carmo.pdf';
+//             // Define o nome do arquivo para download
+//             downloadLink.download = 'CV_Bruno_Carmo.pdf';
             
-            // Clica automaticamente no link para iniciar o download
-            downloadLink.click();
-        } else {
-            // O usuário optou por não fazer o download, nada acontece
-        }
-    });
-});
+//             // Clica automaticamente no link para iniciar o download
+//             downloadLink.click();
+//         } else {
+//             // O usuário optou por não fazer o download, nada acontece
+//         }
+//     });
+// });

@@ -25,11 +25,25 @@
     <script src="JS/showMore.js" defer></script>
 
     <title>Portefólio Bruno Carmo</title>
+        <!-- Google Translate API Script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
     <header>
-        <div class="interface">
+        <!-- Google Translate Widget -->
+    <div id="google_translate_element" class="google"></div>
 
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'pt-pt'}, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <div class="interface">
+   
             <div class="logo">
                 <a href="#">
                     <img class="logo_pq" src="img/logo_round.png" alt="Logo de programador Bruno Carmo">
@@ -59,6 +73,7 @@
                 <div class="btn-fechar" id="fecha">
                     <i class="bi bi-x-lg"></i>
                 </div>
+                 
                 <nav>
                     <ul>
                         <li><a href="#">Início</a></li>
@@ -239,5 +254,6 @@
             </div><!--  line-footer borda-->
         </div><!--- interface -->
     </footer>
+
 </body>
 </html>

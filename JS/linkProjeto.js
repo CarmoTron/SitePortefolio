@@ -26,8 +26,11 @@ document.getElementById("projeto_3").addEventListener("click", function() {
     window.open("https://github.com/CarmoTron/ANDROID","_blank"); // Redireciona para a página do projeto 3
 });
 document.getElementById("projeto_4").addEventListener("click", function() {
-    window.open("https://github.com/CarmoTron/DB_Project_Library","_blank"); // Redireciona para a página do projeto 3
+    window.open("https://github.com/CarmoTron/DB_Project_Library","_blank"); // Redireciona para a página do projeto 4
 });
 document.getElementById("projeto_5").addEventListener("click", function() {
-    window.open("mastermindBruno.exe","_blank"); // Redireciona para a página do projeto 3
+    window.open("mastermindBruno.exe","_blank"); // Redireciona para a página do projeto 5
+});
+document.getElementById("projeto_6").addEventListener("click", function() {
+    window.open("https://github.com/CarmoTron/CRUD_with_Flask","_blank"); // Redireciona para a página do projeto 6
 });
